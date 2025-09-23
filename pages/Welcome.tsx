@@ -16,7 +16,7 @@ const Welcome: React.FC = () => {
       <Card>
         <div className="mb-6">
           <img 
-            src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+            src="https://i.imgur.com/3Mz11hN.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
             alt="Albert and Isha" 
             className="w-64 h-64 object-cover rounded-full mx-auto shadow-lg border-4 border-[#cc5500]"
           />
