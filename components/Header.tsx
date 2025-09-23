@@ -21,7 +21,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-5 flex flex-col sm:flex-row justify-between items-center">
         <div className="flex items-center space-x-4">
           <img 
-            src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&fit=crop" 
+            src="https://i.imgur.com/Jnr0b1m.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&fit=crop" 
             alt="Albert & Isha" 
             className="w-12 h-12 rounded-full border-2 border-[#cc5500] hidden sm:block"
           />
