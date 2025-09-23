@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Albert & Isha's Wedding Story",
+  "description": "A beautiful wedding website for Albert & Isha, telling their story, sharing menu details, and showcasing their album. It features AI-powered tools to help guests generate menu ideas and write toasts.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
