@@ -64,7 +64,7 @@ const OurStory: React.FC = () => {
               )}
               {index === 3 && (
                 <img 
-                  src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" 
+                  src="https://i.imgur.com/NWzWm5k.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" 
                   alt="The proposal" 
                   className="mt-3 rounded-md shadow-sm max-w-xs"
                 />
