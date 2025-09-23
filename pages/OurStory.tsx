@@ -43,7 +43,7 @@ const OurStory: React.FC = () => {
         <h2 className="text-4xl text-center text-[#cc5500] mb-8">Our Story: A Timeline</h2>
         <div className="flex justify-center mb-8">
           <img 
-            src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+            src="https://i.imgur.com/C2EJmXk.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
             alt="Our journey together" 
             className="rounded-lg shadow-lg max-w-lg w-full"
           />
