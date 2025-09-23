@@ -7,7 +7,7 @@ const Welcome: React.FC = () => {
     <div className="text-center">
       <div 
         className="h-96 bg-cover bg-center rounded-lg shadow-lg mb-8" 
-        style={{ backgroundImage: `url('https://i.imgur.com/Jnr0b1m.jpeg')` }}
+        style={{ backgroundImage: `url('https://i.imgur.com/K1u9XMV.jpeg')` }}
       >
         <div className="h-full w-full bg-black/40 flex items-center justify-center rounded-lg">
           <h1 className="text-5xl md:text-7xl text-white font-bold drop-shadow-lg">Celebrating Our Love</h1>
