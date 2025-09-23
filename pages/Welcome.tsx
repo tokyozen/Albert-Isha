@@ -7,7 +7,7 @@ const Welcome: React.FC = () => {
     <div className="text-center">
       <div 
         className="h-96 bg-cover bg-center rounded-lg shadow-lg mb-8" 
-        style={{ backgroundImage: `url('https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop')` }}
+        style={{ backgroundImage: `url(https://imgur.com/K1u9XMV')` }}
       >
         <div className="h-full w-full bg-black/40 flex items-center justify-center rounded-lg">
           <h1 className="text-5xl md:text-7xl text-white font-bold drop-shadow-lg">Celebrating Our Love</h1>
@@ -16,7 +16,7 @@ const Welcome: React.FC = () => {
       <Card>
         <div className="mb-6">
           <img 
-            src="hhttps://imgur.com/K1u9XMV" 
+            src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
             alt="Albert and Isha" 
             className="w-64 h-64 object-cover rounded-full mx-auto shadow-lg border-4 border-[#cc5500]"
           />
