@@ -57,7 +57,7 @@ const OurStory: React.FC = () => {
               <p className="text-gray-700">{event.description}</p>
               {index === 0 && (
                 <img 
-                  src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" 
+                  src="https://i.imgur.com/QL7B4CX.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" 
                   alt="The day we met" 
                   className="mt-3 rounded-md shadow-sm max-w-xs"
                 />
