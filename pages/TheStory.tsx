@@ -9,7 +9,7 @@ const TheStory: React.FC = () => {
         <h2 className="text-4xl text-center text-[#cc5500] mb-6">The Story</h2>
         <div className="flex justify-center mb-8">
           <img 
-            src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" 
+            src="https://i.imgur.com/m4CRmeA.jpeg?auto=compress&cs=tinysrgb&w=500&h=300&fit=crop" 
             alt="Albert and Isha together" 
             className="rounded-lg shadow-lg max-w-md w-full"
           />
@@ -20,7 +20,7 @@ const TheStory: React.FC = () => {
           </p>
           <div className="flex justify-center my-8">
             <img 
-              src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
+              src="https://i.imgur.com/C2EJmXk.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
               alt="Early days together" 
               className="rounded-lg shadow-md"
             />
@@ -33,7 +33,7 @@ const TheStory: React.FC = () => {
           </p>
           <div className="flex justify-center mt-8">
             <img 
-              src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
+              src="https://i.imgur.com/7Ndxp3P.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
               alt="Ready for marriage" 
               className="rounded-lg shadow-md"
             />
