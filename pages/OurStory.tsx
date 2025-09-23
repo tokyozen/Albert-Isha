@@ -41,6 +41,13 @@ const OurStory: React.FC = () => {
     <div className="max-w-4xl mx-auto space-y-12">
       <Card>
         <h2 className="text-4xl text-center text-[#cc5500] mb-8">Our Story: A Timeline</h2>
+        <div className="flex justify-center mb-8">
+          <img 
+            src="https://i.imgur.com/pAHtcMm.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" 
+            alt="Our journey together" 
+            className="rounded-lg shadow-lg max-w-lg w-full"
+          />
+        </div>
         <div className="relative border-l-2 border-[#cc5500] ml-4">
           {timelineEvents.map((event, index) => (
             <div key={index} className="mb-8 ml-8">
@@ -48,6 +55,20 @@ const OurStory: React.FC = () => {
               <p className="text-sm font-semibold text-gray-500">{event.year}</p>
               <h3 className="text-xl font-bold text-gray-800">{event.title}</h3>
               <p className="text-gray-700">{event.description}</p>
+              {index === 0 && (
+                <img 
+                  src="https://i.imgur.com/QL7B4CX.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" 
+                  alt="The day we met" 
+                  className="mt-3 rounded-md shadow-sm max-w-xs"
+                />
+              )}
+              {index === 3 && (
+                <img 
+                  src="https://i.imgur.com/m4CRmeA.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" 
+                  alt="The proposal" 
+                  className="mt-3 rounded-md shadow-sm max-w-xs"
+                />
+              )}
             </div>
           ))}
         </div>
