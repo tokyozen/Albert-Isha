@@ -12,6 +12,20 @@ const menuItems = {
       description: "Spicy and refreshing homemade ginger drink with the perfect kick"
     }
   ],
+  starters: [
+    {
+      name: "Plantain Chips",
+      description: "Crispy, golden plantain slices seasoned to perfection"
+    },
+    {
+      name: "Creamy Potato Salad",
+      description: "Rich and creamy potato salad with herbs and seasonings"
+    },
+    {
+      name: "Cheese Straw",
+      description: "Flaky, buttery pastry twists with savory cheese"
+    }
+  ],
   mains: [
     {
       name: "Foo foo and Sawa",
@@ -50,21 +64,15 @@ const menuItems = {
       description: "Tender, well-seasoned meat prepared with traditional spices"
     }
   ],
-  sides: [
-    {
-      name: "Plantain Chips",
-      description: "Crispy, golden plantain slices seasoned to perfection"
-    },
-    {
-      name: "Creamy Potato Salad",
-      description: "Rich and creamy potato salad with herbs and seasonings"
-    },
-    {
-      name: "Cheese Straw",
-      description: "Flaky, buttery pastry twists with savory cheese"
-    }
-  ],
   desserts: [
+    {
+      name: "Bissap",
+      description: "Refreshing hibiscus drink with a beautiful ruby color and floral notes"
+    },
+    {
+      name: "Ginger Beer",
+      description: "Spicy and refreshing homemade ginger drink with the perfect kick"
+    },
     {
       name: "Bennie Cake",
       description: "Traditional sesame seed cake with rich, nutty flavors"
@@ -171,32 +179,6 @@ const Menu: React.FC = () => {
             </div>
           </section>
 
-          {/* Sides */}
-          <section>
-            <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-amber-700 mb-2" style={{ fontFamily: 'Cormorant Garamond, serif' }}>
-                🥘 Sides
-              </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-orange-400 mx-auto rounded-full"></div>
-            </div>
-            <div className="grid md:grid-cols-2 gap-6">
-              {menuItems.sides.map((dish, index) => (
-                <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-amber-100">
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold text-gray-800 mb-3 group-hover:text-amber-700 transition-colors">
-                      {dish.name}
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      {dish.description}
-                    </p>
-                    <div className="mt-4 text-right">
-                      <span className="text-2xl text-yellow-500 group-hover:scale-110 transition-transform inline-block">🌽</span>
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div>
-          </section>
 
           {/* Desserts & Drinks */}
           <section>
