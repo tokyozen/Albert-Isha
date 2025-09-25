@@ -4,54 +4,74 @@ import Card from '../components/Card';
 const menuItems = {
   starters: [
     {
-      name: "Groundnut Soup",
-      description: "Rich and creamy peanut-based soup with vegetables and tender meat"
+      name: "Bissap",
+      description: "Refreshing hibiscus drink with a beautiful ruby color and floral notes"
     },
     {
-      name: "Akara (Bean Cakes)",
-      description: "Crispy black-eyed pea fritters seasoned with onions and spices"
+      name: "Ginger Beer",
+      description: "Spicy and refreshing homemade ginger drink with the perfect kick"
     }
   ],
   mains: [
     {
-      name: "Jollof Rice",
-      description: "Aromatic rice cooked in a rich tomato and spice blend"
+      name: "Foo foo and Sawa",
+      description: "Traditional cassava dumpling served with rich palm nut soup"
     },
     {
-      name: "Cassava Leaves",
-      description: "Tender cassava leaves slow-cooked with meat and aromatic spices"
+      name: "Achekeh",
+      description: "Flavorful rice dish cooked with spices and vegetables"
     },
     {
-      name: "Potato Leaves",
-      description: "Fresh sweet potato leaves prepared in traditional Sierra Leonean style"
+      name: "Fried Rice",
+      description: "Aromatic rice stir-fried with vegetables and seasonings"
     },
     {
-      name: "Pepper Chicken",
-      description: "Succulent chicken pieces marinated in fiery Sierra Leonean pepper sauce"
+      name: "Chicken BBQ",
+      description: "Tender grilled chicken with smoky barbecue flavors"
     },
     {
-      name: "Fish Balls",
-      description: "Delicately seasoned fish formed into tender balls and perfectly cooked"
+      name: "Crispy Fish Fingers",
+      description: "Golden-fried fish strips with a perfectly crispy coating"
+    },
+    {
+      name: "Plain Rice",
+      description: "Perfectly steamed jasmine rice as a versatile base"
+    },
+    {
+      name: "Cassava Leaf Sauce / Green",
+      description: "Rich and hearty cassava leaves cooked in traditional style"
+    },
+    {
+      name: "Couscous",
+      description: "Light and fluffy semolina grains with delicate seasoning"
+    },
+    {
+      name: "Meat",
+      description: "Tender, well-seasoned meat prepared with traditional spices"
     }
   ],
   sides: [
     {
-      name: "Fried Plantains",
-      description: "Sweet, golden plantains fried to caramelized perfection"
+      name: "Plantain Chips",
+      description: "Crispy, golden plantain slices seasoned to perfection"
     },
     {
-      name: "Agidi (Pap)",
-      description: "Smooth, creamy corn pudding served as a delightful accompaniment"
+      name: "Creamy Potato Salad",
+      description: "Rich and creamy potato salad with herbs and seasonings"
+    },
+    {
+      name: "Cheese Straw",
+      description: "Flaky, buttery pastry twists with savory cheese"
     }
   ],
   desserts: [
     {
-      name: "Puff-Puff",
-      description: "Light, fluffy deep-fried dough balls dusted with sugar"
+      name: "Bennie Cake",
+      description: "Traditional sesame seed cake with rich, nutty flavors"
     },
     {
-      name: "Ginger Beer",
-      description: "Refreshing homemade ginger drink with a perfect balance of spice and sweetness"
+      name: "Groundnut Cake",
+      description: "Moist and flavorful peanut cake with authentic Sierra Leonean taste"
     }
   ]
 };
